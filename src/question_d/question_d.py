@@ -1,1 +1,3 @@
-#write functions here, don't add input('') statements here!
+def getFahrenheit(celcius):
+    return((9/5)*celcius+32)
+

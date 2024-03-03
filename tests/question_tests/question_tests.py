@@ -1,7 +1,9 @@
-#write function tests here, don't add input('') statements here!
 import unittest
 
-#follow this example to add questions b, c, and d for testing including their functions
+#I put all my tests in this file because instead of being divided up into multiple ones like the src folder, the tests were by default this one file and it's called 
+#tests, which I think is implying we're just supposed to put them here even though the instructions on the blackboard said otherwise. Also, the run_tests.py in the
+#root folder says not to edit it, and it's only importing this file.
+
 from src.question_a.question_a import test_config, is_prime
 from src.question_b.question_b import get_day_of_week
 from src.question_c.question_c import get_random_number
